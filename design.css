@@ -4,7 +4,7 @@ body {
    font-family: "Helvetica Neue", Helvetica, sans-serif;
    color: #444;
    -webkit-font-smoothing: antialiased;
-   background: #f0f0f0;
+   background: #586994;
 }
 
 #container {
@@ -15,16 +15,16 @@ body {
    left: 50%;
    margin-top: -100px;
    margin-left: -170px;
-   background: gray;
+   background: #7D869C;
    border-radius: 3px;
    border: 1px solid #ccc;
-   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
    padding: 20px;
    box-sizing: border-box;
 }
 
 form {
-   margin: 1;
+   margin: 10;
 }
 
 .f1_label {
@@ -35,7 +35,7 @@ form {
 
 input[type="text"] {
    width: 100%;
-   padding: 5px;
+   padding: 8px;
    box-sizing: border-box;
    border: 1px solid #ccc;
    border-radius: 3px;
@@ -48,7 +48,7 @@ input[type="reg"] {
    margin-top: 10px;
    background-color: rgba(0, 128, 0, 0.647);
    border: none;
-   border-radius: 1px;
+   
    color: #fff;
    font-size: 14px;
    cursor: pointer;
