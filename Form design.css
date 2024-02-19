@@ -1,0 +1,19 @@
+body{
+
+font-size: 18px;
+background-image: url("wallpaperflare.com_wallpaper (5).jpg");
+font-family: "Anta";
+}
+  
+#details{
+    
+    font-size: 18px;
+    height: 200px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 3px solid grey;
+    padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
