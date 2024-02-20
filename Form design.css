@@ -1,37 +1,29 @@
-{margin: 0;
-padding: 0;
-box-sizing: border-box;
-
-}
-
 body{
-
-font-size: 15px;
-background-image: url("wallpaperflare.com_wallpaper (5).jpg");
-font-family: "Anta";
-
-
+  font-size: 15px;
+  background-image: url("wallpaperflare.com_wallpaper (5).jpg");
+  font-family: "Anta";
 }
-.details{
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  flex-direction: column;
- 
-    font-size: 18px;
-    height: 500px;
-    width: 300px;
-    background: transparent;
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
-    border: 3px solid grey;
-    padding: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    gap: 30px;
 
-    button {
-        font-family: "anta";
+.details{
+
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+
+  font-size: 18px;
+  height: 500px;
+  width: 300px;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 3px solid grey;
+  padding: 4%;
+  margin-left: 15%;
+  margin-right: 15%;
+  gap: 27px;
+
+  button {
+       font-family: "anta";
         font-size: 18px;
         padding: 1em 2.7em;
         font-weight: 500;
@@ -40,9 +32,9 @@ font-family: "Anta";
         border: none;
         position: relative;
         overflow: hidden;
-        border-radius: 0.6em;
+        border-radius: 10px;
         cursor: pointer;
-        top: 50px;
+        top: 20px;
       }
       
       .gradient {
@@ -135,7 +127,5 @@ font-family: "Anta";
 .inputBox input:valid ,
 .inputBox input:focus {
   border: 2px solid aquamarine;
-
-
 }
 }
