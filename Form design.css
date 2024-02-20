@@ -92,7 +92,7 @@ display: flex;
         font-size: 1.01em; 
       }
       button:active {
-        transform: scale(0.97);
+        transform: scale(0.95);
       }
 
 .inputBox{
@@ -113,7 +113,7 @@ display: flex;
 }
 
 .inputBox span{
-    padding: absolute;
+    position : absolute;
     left: 0;
     padding: 10px;
     pointer-events: none;
