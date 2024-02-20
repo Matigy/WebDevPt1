@@ -1,8 +1,6 @@
-{
-margin: 0;
+{margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'anta';
 
 }
 
@@ -12,20 +10,17 @@ font-size: 15px;
 background-image: url("wallpaperflare.com_wallpaper (5).jpg");
 font-family: "Anta";
 
-display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-    gap: 30px;
 
 }
-  
 .details{
-    
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+ 
     font-size: 18px;
-    height: 150px;
-    width: 200px;
+    height: 500px;
+    width: 300px;
     background: transparent;
     backdrop-filter: blur(6px);
     border-radius: 10px;
@@ -33,7 +28,7 @@ display: flex;
     padding: 5%;
     margin-left: 15%;
     margin-right: 15%;
-    gap: 10px;
+    gap: 30px;
 
     button {
         font-family: "anta";
@@ -47,6 +42,7 @@ display: flex;
         overflow: hidden;
         border-radius: 0.6em;
         cursor: pointer;
+        top: 50px;
       }
       
       .gradient {
@@ -84,17 +80,18 @@ display: flex;
       }
       
       button:hover .transition {
-        width: 14em;
+        width: 20em;
         height: 14em;      
         
       }
       button:hover {
-        font-size: 1.01em; 
+        font-size: 1.02em; 
       }
       button:active {
         transform: scale(0.95);
+        background-color: aquamarine;
       }
-
+    
 .inputBox{
     position: relative;
     width: 250px;
@@ -103,34 +100,42 @@ display: flex;
 .inputBox input{
     width: 100%;
     padding: 10px;
-    border: 1px solid gray;
+    border: 2px solid gray;
     background: transparent;
     border-radius: 10px;
     outline: none;
     color: white;
     font-size: 1em;
+    transition: 0.5s;
     
 }
 
 .inputBox span{
     position : absolute;
+    top: 0;
     left: 0;
     padding: 10px;
     pointer-events: none;
     font-size: 1em;
     color: gray;
     text-transform: uppercase;
-    transform: 0.5s;
+    transition: 0.5s;
 }
 
 .inputBox input:valid ~ span,
+.inputBox input:hover ~ span,
 .inputBox input:focus ~ span{
     color: aquamarine;
-    transform: translateX(10px) translateY(-7px);
+    transform: translateX(10px) translateY(-15px);
     font-size: 0.65em;
     padding: 0 10px;
-    background: gray;
-    width: 70px;
-    border-radius: 5px;
+    background: transparent;
+    letter-spacing: 0.2em;
+}
+.inputBox input:valid ,
+.inputBox input:focus {
+  border: 2px solid aquamarine;
+
+
 }
 }
