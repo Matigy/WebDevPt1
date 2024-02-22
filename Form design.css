@@ -1,13 +1,14 @@
 body{
   font-size: 15px;
   background-image: url("wallpaperflare.com_wallpaper (5).jpg");
+  background-size: auto;
   font-family: "Anta";
 }
 
 .details{
 
   display: flex;
-  min-height: 80vh;
+  min-height: 75vh;
   flex-direction: column;
 
   font-size: 18px;
@@ -17,10 +18,10 @@ body{
   backdrop-filter: blur(6px);
   border-radius: 10px;
   border: 3px solid grey;
-  padding: 4%;
+  padding: 3%;
   margin-left: 15%;
   margin-right: 15%;
-  gap: 27px;
+  gap: 25px;
 
   button {
        font-family: "anta";
